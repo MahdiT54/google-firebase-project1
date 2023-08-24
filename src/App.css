@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+button {
+    margin-left: 8px;
+    height: 20px;
+    width: 80px;
+}
+
+.registrar {
+    display: flex;
+    align-items: center;
+}
+
+.img__skeleton {
+    width: 50px;
+    height: 20px;
+    background-color: gray;
+}
+
+.logout__btn {
+    font-size: 24px;
+    border-radius: 99px;
+    width: 50px;
+    height: 50px;
+}
+
+.user__post {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
